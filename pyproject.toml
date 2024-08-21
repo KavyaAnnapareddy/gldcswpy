@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "gldcswpy"
+version = "0.1.0"
+description = "Generalized Lambda Distribution in CSW Parametrization for Python"
+authors = ["Kavya Annapareddy <annapareddy.kavya@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/KavyaAnnapareddy/gldcswpy"
+keywords = ["gld"]
+classifiers = [
+    "Topic :: Scientific/Engineering",
+]
+
+[tool.poetry.dependencies]
+python = "~3.12"
+pandas = "*"
+
+pytest = ">= 7.4.0"
+
+[build-system]
+requires = [
+    "poetry-core"
+]
+build-backend = "poetry.core.masonry.api"
