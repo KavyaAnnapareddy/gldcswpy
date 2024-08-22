@@ -1,5 +1,5 @@
 import numpy as np
-from gldcswpy.gldcswpy import Gld
+from gldcswpy._gldcswpy import Gld
 
 def test_gldcswpy():
     # Example data- Chi-squared distribution 

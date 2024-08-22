@@ -1,1 +1,1 @@
-import gldcswpy.gldcswpy as gldcswpy
+from ._gldcswpy import Gld
