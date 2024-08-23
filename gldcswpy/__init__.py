@@ -1,1 +1,1 @@
-from ._gldcswpy import Gld
+from ._gldcswpy import *
