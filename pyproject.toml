@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gldcswpy"
-version = "0.1.5"
+version = "0.1.6"
 description = "Generalized Lambda Distribution in CSW Parametrization for Python"
 authors = ["Kavya Annapareddy <annapareddy.kavya@gmail.com>"]
 license = "MIT"
@@ -12,7 +12,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "~3.12"
+python = "^3.11.0"
 pandas = "*"
 
 pytest = ">= 7.4.0"
